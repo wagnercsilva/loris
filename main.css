@@ -1,0 +1,92 @@
+.login-page
+{
+    background-image: url('nature.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 20%;
+    position: absolute;
+    right: 20%;
+    text-align: center;
+    background-size: cover;
+	position: center;
+	top: 30%;
+	margin-top: -50px;
+}
+
+
+header{
+	
+}
+nav{
+	top: 20%;
+	margin-top: 100px;
+	border:2px;
+}
+body {
+	color: #FA8072;
+	background-color:*#FFEFD5;
+	font-weight: #FA8072;
+	font-family: calibri;
+}
+footer{
+	margin-top: absolute;
+	position: center;
+
+}
+form{
+	font-family: calibri;
+	size: above;
+}
+
+.texto {
+	font-family: calibri;
+	font-size: 11px;
+	font-weight: #FA8072;
+}
+h2 {
+	font-family: calibri;
+	color: #FA8072;
+	font-size:20px;
+}
+h1 {
+	font-family: calibri;
+	color: #FA8072;
+}
+.btn-danger {
+	background-color: #FA8072;
+}
+
+#teste ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+	text-align:center;
+	border: 1px solid #e7e7e7;
+    background-color:#EDEDED;
+}
+
+#teste ul li { 
+	display: inline;
+	}
+
+#teste ul li a {
+    padding: 14px 16px;
+    display: inline-block;
+	color: #666;
+    background-color:#EDEDED;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+
+}
+
+#teste ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid #EA0000;
+}
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
