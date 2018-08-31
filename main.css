@@ -57,16 +57,15 @@ h1 {
 .btn-danger {
 	background-color: #FA8072;
 }
-
 #teste ul {
     padding:0px;
     margin:0px;
     list-style:none;
 	text-align:center;
-	border: 1px solid #e7e7e7;
-    background-color:#EDEDED;
+	border: 3px solid pink;
+	border-style:dashed;
+    background-color: #f3f3f3;
 }
-
 #teste ul li { 
 	display: inline;
 	}
