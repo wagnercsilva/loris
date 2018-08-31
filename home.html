@@ -1,12 +1,17 @@
 <html lang="en">
 <head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="main.css">
-    <title>1 Ano Lorena</title>
+    
+
+  <title>1 Ano Lorena</title>
   <header>
   <img src="topo">
   </header>
@@ -17,30 +22,36 @@
 
 <div id="teste">
 <ul>
-  <li><a href="#convite">Convite Virtual</a></li>
-  <li><a href="#presença">Confirme sua presença</a></li>
-  <li><a href="#sobre">Sobre nós</a></li>
-  <li><a href="#contato">Contato</a></li>
+  <li><a href="home.html">Confirmar Presença</a></li>
+  <li><a href="convite.html">Convite Virtual</a></li>
+  <li><a href="sobre.html">Lorena</a></li>
+
 </ul>
-<div id="loginPage" class=login-page>
+</div>
 
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">
+		<div id="loginPage" class=login-page class="main" class="w3-content" style="max-width:700px">
+	 <section id="about">
+		<h1>Confirmação de presença!</h1>
+		<h2>Olá convidado!</h2>
 
+	  <form id="envia" method="POST" action="login.php">
+		
+		  <input type="text" class="form-control" id="login" placeholder="Informe seu nome" name="login">
 
-   <h2>Olá convidado!</h2>
-
-  <form id="envia" method="POST" action="login.php">
-    
-      <input type="text" class="form-control" id="login" placeholder="Informe seu nome" name="login">
-    <br>
-	<br>
-	<br>
-	<div>
-    <button type="button" onclick="validaNome();"  class="btn btn-danger" value="entrar" id="entrar" name="entrar">Entrar</button>
-
+			<div>
+			<br>
+			<button type="button" onclick="validaNome();"  class="btn btn-danger" value="entrar" id="entrar" name="entrar">Entrar</button>
+			</div>
+		</form>
+	 </section>
+		</div>
 	</div>
- </form>
 </div>
-</div>
-
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>© copyright</p>
+</footer>
 </body>
 </html>
