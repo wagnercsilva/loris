@@ -14,10 +14,17 @@
 	top: 30%;
 	margin-top: -50px;
 }
-
-
+* {
+  box-sizing: border-box;
+}
 header{
 	
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
 }
 nav{
 	top: 20%;
@@ -31,9 +38,12 @@ body {
 	font-family: calibri;
 }
 footer{
-	margin-top: absolute;
 	position: center;
-
+	background-color:#e5e5e5;
+	text-align:center;
+	padding:10px;
+	margin-top:100%;
+	overflow: hidden;
 }
 form{
 	font-family: calibri;
@@ -57,6 +67,7 @@ h1 {
 .btn-danger {
 	background-color: #FA8072;
 }
+
 #teste ul {
     padding:0px;
     margin:0px;
@@ -66,6 +77,7 @@ h1 {
 	border-style:dashed;
     background-color: #f3f3f3;
 }
+
 #teste ul li { 
 	display: inline;
 	}
@@ -74,16 +86,15 @@ h1 {
     padding: 14px 16px;
     display: inline-block;
 	color: #666;
-    background-color:#EDEDED;
+    background-color:##f3f3f3;
     text-decoration: none;
     border-bottom:3px solid #EDEDED;
-
 }
 
 #teste ul li a:hover {
     background-color:#D6D6D6;
     color: #6D6D6D;
-    border-bottom:3px solid #EA0000;
+    border-bottom:3px solid #F08080;
 }
 li a.active {
     color: white;
